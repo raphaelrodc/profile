@@ -1,2 +1,2 @@
 # profile
-Site de teste para de html e css do meu perfil.
+Aproveitando para aprimorar meus conhecimentos em git, html e css
