@@ -23,11 +23,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    background-color: black;
-    color: whitesmoke;
-}
-
 .site-subtitle, .site-title{
     color:  whitesmoke;
     text-align: center;
