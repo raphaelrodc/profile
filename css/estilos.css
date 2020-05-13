@@ -8,7 +8,7 @@
 body {
     background-image: url("../img/fundo.jpg");
     background-size: auto;
-    font-family: Arial;
+    font-family: 'Ubuntu Mono', monospace;
     height: 100vh;
     font-size: 12px;
 }
@@ -46,6 +46,7 @@ header {
     position: fixed;
     width: 100vw;
     top: 0;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .menu li {
@@ -75,13 +76,42 @@ a:hover {
 .site-subtitle, .site-title{
     color:  whitesmoke;
     text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.site-title {
+    font-size: 4em;
 }
 
 .site-subtitle  {
     font-style: italic;
+
+}
+
+.portfolio {
+    padding: 2em;
+}
+
+.portfolio h2 {
+    color: whitesmoke;
+    margin-bottom: .5em;
+
+}
+
+.portfolio .grid {
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-content: center;
+}
+
+.portfolio figure {
+    text-align: center;
 }
 
 .img-portfolio {
-    height: 180px;
-    width: 180px;
+    height: 256px;
+    width: 256px;
+    object-fit: cover;
 }
