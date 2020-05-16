@@ -172,3 +172,12 @@ a {
         opacity: 1;
     }
 }
+
+.sobre .avatar {
+    float: right;
+    margin-left: 1em;
+}
+
+.sobre .avatar img {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
